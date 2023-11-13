@@ -1,0 +1,33 @@
+.about-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    padding-right: 20px;
+}
+
+.about-image {
+    max-width: 22%;
+    height: auto;
+    border-radius: 200px;
+    margin-top: 60px;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.education-table th, .education-table td {
+    border: 2px solid #334eac;
+    padding: 5px;
+    text-align: left;
+}
+
+.education-table th {
+    text-align: center;
+}

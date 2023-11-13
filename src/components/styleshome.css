@@ -1,0 +1,53 @@
+.page-home {
+    margin-left: 10%;
+}
+
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-home h4,
+.page-home h2,
+.page-home p {
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.page-home h4 {
+    font-size: 40px;
+}
+
+.page-home h2 {
+    font-size: 40px;
+}
+
+.page-home p {
+    font-size: 20px;
+}
+
+.name-highlight {
+    color: #334eac;
+}
+
+.more-about-button {
+    background-color: #2b438e;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 100px;
+    cursor: pointer;
+
+    margin-top: 20px;
+    font-size: 16px;
+}
+  
+.more-about-button:hover {
+    background-color: #566eb6;
+}
+
+.home-image {
+    max-width: 30%;
+    margin-right: 10%;
+}

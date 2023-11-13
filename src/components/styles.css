@@ -1,0 +1,133 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #acc6ef;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.content-page {
+    margin: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 20px;
+    background: #151b55;
+    color: #7096d1;
+}
+
+.site-title {
+    font-size: 1.5em;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin-right: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #7096d1;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {       
+    color: #9ccddb;
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #151b55;
+    padding: 6px;
+}
+
+.footer-content {
+    text-align: center;
+    color: #7096d1;
+}
+
+.content-page h1 {
+    text-align: center;
+    color: #334eac;
+    margin-bottom: 3px;
+}
+
+.content-page h3 {
+    text-align: center;
+    color: #151b55;
+    margin-top: 3px;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.input-group {
+    margin-bottom: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    outline: none;
+}
+
+textarea {
+    max-height: 100px;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #99afc7;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+input[type="submit"] {
+    background: #2b438e;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+input[type="submit"]:hover {
+    background: #566eb6;
+}
+
+.contact-icons a {
+    color: #2b557f;
+    font-size: 30px;
+    margin-left: 25px; 
+    text-decoration: none;
+    float: left;
+}
+
+.contact-icons a:hover {
+    color: #5884b1;
+}
